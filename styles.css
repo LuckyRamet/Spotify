@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .d00 {
+    position: relative;
+    left: -90px;
+    top: 10px;
+  }
+  .d1 {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 10px;
+  }
+  .d01 {
+    display: flex;
+  }
+  div h2 {
+    margin-right: 20px;
+  }
+  .logo {
+    position: relative;
+    align-self: center;
+    bottom: -10px;
+    right: 90px;
+    color: #5b5dab;
+  }
+  .Joblogo {
+    position: relative;
+        top: 5px;
+        color: #27af27;
+  }
+  .logo2 {
+    position: relative;
+    right: 275px;
+    top: 5px;
+  }
+  body {
+    background-color: rgb(250, 250, 250);
+  }
+  .container {
+    width: 650px;
+    height: 230px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    background-color: white;
+  }
+  .container01 {
+    width: 650px;
+    height: 230px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    background-color: white;
+  }
+  .gimg01 {
+    /* background-color: rgb(92, 217, 255); */
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 90px;
+    top: -35px;
+    border-radius: 20px;
+    background-color: #746161;
+    background-size: cover;
+  }
+  .gimg02 {
+    /* background-color: rgb(191, 126, 23); */
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 90px;
+    top: -35px;
+    border-radius: 20px;
+    background-color: #5b5dab;
+    background-size: cover;
+  }
+  .text01 {
+    position: relative;
+    top: -220px;
+    left: 300px;
+  }
+  .text02 {
+    position: relative;
+    top: -150px;
+    left: 300px;
+  }
+  .textcon {
+    position: relative;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+  }
+  .dvimg {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .dvimg01 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .containerpay {
+    width: 550px;
+    height: 230px;
+    border: 1px solid #e0e0e0;
+  
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+    position: relative;
+    top: -380px;
+    left: 860px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+  }
+  .containerpay01 {
+    width: 550px;
+    height: 180px;
+    border: 1px solid #e0e0e0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    top: -380px;
+    left: 860px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+  }
+  input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    bottom: -145px;
+    right: 160px;
+  }
+  .btn {
+    position: relative;
+    height: 40px;
+    width: 130px;
+    top: 145px;
+    left: -140px;
+    /* เอาเงาออก */
+    box-shadow: none;
+    /* หรือสามารถกำหนด box-shadow ว่างไปก็ได้ */
+    /* box-shadow: 0 0 0 transparent; */
+    /* ส่วนอื่นๆของสไตล์ button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4fc96d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btn01 {
+    position: relative;
+    top: 100px;
+    right: 205px;
+    height: 45px;
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #4fc96d;
+    color: rgb(182, 253, 226);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 142, 113, 0.75);
+  }
+  .text1 {
+    position: relative;
+    font-size: 20px;
+    left: 25px;
+    top: 35px;
+  }
+  .text11 {
+    position: relative;
+    font-size: 20px;
+    left: 31px;
+    top: 35px;
+  }
+  .text2 {
+    position: relative;
+    left: 280px;
+    top: 25px;
+    color: #4fc96d;
+  }
+  .text3 {
+    position: relative;
+    left: 290px;
+    top: 25px;
+    color: #4fc96d;
+  }
+  .texth2 {
+    position: relative;
+    left: 23px;
+    top: 20px;
+  }
+  .a1 {
+    position: relative;
+    left: -80px;
+    top: 90px;
+  }
+  .a2 {
+    position: relative;
+    left: 280px;
+    top: 90px;
+  }
+  .a3 {
+    position: relative;
+    left: 285px;
+    top: 90px;
+  }
+  .dm1 {
+    position: relative;
+    top: 80px;
+    left: 20px;
+  }
+  .m1 {
+    width: 50px;
+    border: 2px solid #4fc96d;
+    padding: 10px;
+    border-radius: 100%;
+  }
+  .m02 {
+    position: relative;
+    width: 28px;
+    left: -90px;
+    top: -0px;
+  }
+  .dm02 {
+    position: relative;
+    top: 150px;
+    left: 20px;
+  }
+  /* CSS สำหรับปุ่มที่มีสไตล์ */
+  .styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(250, 250, 250);
+    /* border-radius: 5px; */
+    color: #000c39;
+    background-color: rgb(250, 250, 250);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .styled-button:hover {
+    background-color: #00e390;
+    border-color: #00e390;
+  }
+  .ns1 {
+    width: 22px;
+  }
+  .ns2 {
+    width: 22px;
+  }
+  .nsall {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: -20px;
+  }
+  .dns {
+    position: relative;
+    left: -22px;
+  }
+  .warning {
+    position: relative;
+  
+    background-color: rgb(255, 51, 0);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    color: white;
+    font-size: 15px;
+    left: -7px;
+    top: -4px;
+  }
+  .pa {
+    position: relative;
+    font-size: 12px;
+    left: -17px;
+    top: -4px;
+    color: white;
+  }
+  .topic {
+    position: relative;
+    left: 100px;
+    top: 60px;
+  }
+  .logo1 {
+    width: 40px;
+    position: relative;
+    top: 13px;
+    left: 90px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: gray;
+  }
+  .circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: gray;
+  }
+  .op {
+    position: relative;
+    left: 120px;
+    top: 30px;
+  }
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  select:hover {
+    border-color: #00a769;
+  }
+  .thb {
+    position: relative;
+    left: 5px;
+    top: 20px;
+    font-size: 20px;
+    color: #393939;
+  }
+  .texth3 {
+    position: relative;
+    top: 20px;
+    left: -10px;
+  }
+   
